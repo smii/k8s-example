@@ -16,5 +16,5 @@ spec:
           image: icrosby/k8s-real-demo
           ports:
             - containerPort: 8080
-      nodeSelector:
-        env: "production"
+#      nodeSelector:
+#        env: "production"
